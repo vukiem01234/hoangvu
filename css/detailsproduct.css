@@ -1,0 +1,170 @@
+.container {
+    background: white;
+    width: 740px;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    box-shadow: -1px 15px 30px -6px rgba(196, 196, 196, 1);
+}
+
+.shoe-details-left {
+    float: left;
+    background: #FF0235;
+    background: linear-gradient(#626A67, #FF4928);
+    width: 270px;
+    color: white;
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.shoe-details-left .product-shot {
+    width: 220px;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.shoe-details-left .product-price,
+.product-price-details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.shoe-details-left .product-price {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.shoe-details-right {
+    float: left;
+    width: 470px;
+    padding: 30px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+.shoe-details-right .product-title {
+    font-size: 20px;
+}
+
+.shoe-details-right .label {
+    background: #FF3F2A;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 7px;
+    font-size: 10px;
+    vertical-align: top;
+    margin-left: auto;
+}
+
+.shoe-details-right .product-category {
+    margin: 5px 0 10px;
+}
+
+
+.gray {
+    color: #999;
+}
+
+
+.tab-content {
+    text-transform: none;
+    font-size: 14px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+h2 {
+    font-weight: 900;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.sizes {
+    margin-bottom: 20px;
+}
+
+.sizes li {
+    display: inline;
+    font-size: 14px;
+    margin-right: 40px;
+    padding: 5px;
+}
+
+.sizes li .active,
+.sizes li :hover {
+    background: #FF3F2A;
+    border-radius: 50%;
+    color: white;
+}
+
+.sizes li .active>a,
+.sizes li :hover>a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.blue {
+    background: #00D3EF;
+}
+
+.orange {
+    background: #FF3F2A;
+}
+
+.yellow {
+    background: #FFD203;
+}
+
+.black {
+    background: black;
+}
+
+a.btn {
+    text-decoration: none;
+    background: #CCC;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+a.btn :hover {
+    background: lighten(#CCC, 5%);
+}
+
+a.btn-primary {
+    background: #00D3EF;
+    margin-right: 20px;
+}
+
+a.btn-primary :hover {
+    background: lighten(#FF0000, 5%);
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
